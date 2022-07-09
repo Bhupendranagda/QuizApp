@@ -27,6 +27,7 @@ function App() {
         {gameState === "playing" && <Quiz />}
         {gameState === "finished" && <EndScreen />}
       </GameStateContext.Provider>
+      <footer>Made by Bhupendra❤️</footer>
     </div>
   );
 }

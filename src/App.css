@@ -79,3 +79,29 @@ button:hover {
     height: 500px;
   }
 }
+
+@media only screen and (max-width: 376px) {
+  .Menu {
+    width: 350px;
+    height: 500px;
+  }
+
+  .Menu input, button {
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .Quiz {
+    width: 350px;
+    height: 500px;
+  }
+
+  .EndScreen {
+    width: 350px;
+    height: 500px;
+  }
+}

@@ -62,3 +62,20 @@ button:hover {
 #nextQuestions {
   width: 200px;
 }
+
+@media only screen and (max-width: 425px) {
+  .Menu {
+    width: 400px;
+    height: 500px;
+  }
+
+  .Quiz {
+    width: 400px;
+    height: 500px;
+  }
+
+  .EndScreen {
+    width: 400px;
+    height: 500px;
+  }
+}

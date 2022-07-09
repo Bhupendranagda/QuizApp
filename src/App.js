@@ -8,7 +8,7 @@ import { GameStateContext } from "./helpers/Contexts";
 function App() {
   const [gameState, setGameState] = useState("menu");
   const [userName, setUserName] = useState("");
-  const [score, setScore] = useState("");
+  const [score, setScore] = useState(0);
 
   return (
     <div className="App">
